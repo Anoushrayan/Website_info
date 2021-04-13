@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>Nanda_Website</title> 
+    <style>
+      body{
+        margin: 50px 50px 50px 50px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+      }
+      a{
+        text-decoration: none;
+      }
+      #header{
+        background-color: red;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 60px;
+        color: white;
+      }
+      #main_content_h{
+        background-color: blue;
+        width: 50%;
+        margin-left: 20px;
+        padding: 10px 30px 10px 30px;
+        border-style: solid;
+        border-width: 5px 5px 0px 5px;
+        border-color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        color: white;
+
+      }
+      .main_content_c{
+        background-color: rgb(173, 216, 230);
+        width: 50%;
+        margin-left: 20px;
+        padding: 30px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 27px;
+        color: rgb(0, 0, 0);
+      }
+      .small{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+      }
+      .symbol{
+        font-style: italic;
+      }
+      #home{
+        background-color: red;
+        padding: 5px;
+        margin: 3px;
+      }
+      #header #img_1
+      {
+        display: inline-block;
+      }
+      #img_1{
+        border: rgb(0, 0, 0);
+        border-style: solid;
+        border-width: 2px;
+        margin: 4px;
+      }
+      .side_box_m{
+        position: absolute;
+        background-color: rgb(0, 139, 19);
+        width: 30%;
+        margin-left: 40px;
+        border-style: solid;
+        padding: 10px 30px 10px 30px;
+        border-width: 5px 5px 0px 5px;
+        border-color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        color: white;
+
+      }
+      #b1{
+        position: absolute;
+        top: 320px;
+        left: 900px;
+      }
+      #b2{
+        position: absolute;
+        top: 520px;
+        left: 900px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id = "header">  
+      <a href = "C:\Users\Roddur\Documents\anoushrayan\projects\Nanda_website\Nanda_website.html">
+        <img src = "C:\Users\Roddur\Documents\anoushrayan\projects\Nanda_website\Home_icon copy.jpg" height="50px" id =  "img_1">
+      </a>  
+      <center><font>The Mathematics of Exobiology</font></center>
+        <hr color="black" width="100%" size="5px">
+    </div>
+    <br><br><br>
+    <a href = "C:\Users\Roddur\Documents\anoushrayan\projects\Nanda_website\Drake Equation.html">
+      <div id = "main_content_h">
+      <center>Drake Equation</center>
+    </div>
+    <div class = "main_content_c">
+      <br>
+      The Drake equation is an equation that was created by the astrobiologist Frank Drake. He used this equation to find out how many alien civilizations with
+        approximately our level of technology exists within a set number of stars.<br> 
+        The Drake equation is:
+        <br>
+        <br>
+        <center><font class = "symbol">N</font> * <font class = "symbol">R<font class = "small">*</font></font> * <font class = "symbol">f<font class = "small">p</font></font> * <font class = "symbol">n<font class = "small">e</font></font> * <font class = "symbol">f<font class = "small">l</font></font> * <font class = "symbol">f<font class = "small">i</font></font> * <font class = "symbol">f<font class = "small">c</font></font> * <font class = "symbol">L</font></center>
+        <br>
+        <br>
+        
+        where:
+        <br><br>
+        <font class = "symbol">N</font> = The number of civilizations in our galaxy with which communication might be possible (i.e. which are on our current past light cone).
+        <br><br>        
+        <font class = "symbol">R<font class = "small">*</font></font> = The average rate of star formation in our galaxy.
+        <br><br>
+        <font class = "symbol">f<font class = "small">p</font></font> = The fraction of those stars that have planets.
+        <br><br>
+        <font class = "symbol">n<font class = "small">e</font></font> = The average number of planets that can potentially support life per star that has planets.
+        <br><br>
+        <font class = "symbol">f<font class = "small">l</font></font> = The fraction of planets that could support life that actually develop life at some point.
+        <br><br>
+        <font class = "symbol">f<font class = "small">i</font></font> = The fraction of planets with life that actually go on to develop intelligent life (civilizations).
+        <br><br>
+        <font class = "symbol">f<font class = "small">c</font></font> = The fraction of civilizations that develop a technology that releases detectable signs of their existence into space.
+        <br><br>
+        <font class = "symbol">L</font> = The length of time for which such civilizations release detectable signals into space.
+    </div>
+    </a>
+    <div class = "side_box_m" id = "b1">
+      <center>Random Stuff</center>
+    </div>
+    <br><br><br>
+    <script>
+      var img1 = document.getElementById("img_1");
+
+      var colChange = function(){
+        img1.src = "C:/Users/Roddur/Documents/anoushrayan/projects/Nanda_website/Home_icon_2.jpg"
+      };
+      var colBack = function(){
+        img1.src = "C:/Users/Roddur/Documents/anoushrayan/projects/Nanda_website/Home_icon copy.jpg"
+      };
+      img1.addEventListener("mouseover", colChange);
+      img1.addEventListener("mouseout", colBack);
+    </script>
+</body>
+</html>
